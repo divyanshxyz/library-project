@@ -2,6 +2,8 @@
 
 A simple library app built with vanilla JavaScript, HTML, and CSS. You can add books, view them as cards, toggle read status, and remove books from the library.
 
+![Demo Screenshot](./images/readme.png)
+
 ## Features
 
 - Add a new book using a modal form
