@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Library App</title>
     <link rel="stylesheet" href="./style.css">
 </head>
-<body>
-    <div>
 
+<body>
+    <h1>Library App</h1>
+    <div class="body">
+        <div>
+            <button id="new-book-btn">Add New Book</button>
+        </div>
+        <dialog id="book-dialog">
+            <form action="" id="book-form">
+                <label for="title">Title</label>
+                <input type="text" id="title" required>
+
+                <label for="author">Author</label>
+                <input type="text" id="author" required>
+
+                <label for="numberOfPages">Number of Pages</label>
+                <input type="number" id="numberOfPages" required>
+
+                <label for="">Read</label>
+                <input type="radio" id="option1" name="isRead" value="true">
+                <label for="option1">Yes</label>
+                <input type="radio" id="option2" name="isRead" value="false" checked>
+                <label for="option2">No</label>
+
+
+                <button type="submit" id="form-submit-btn">Submit</button>
+            </form>
+        </dialog>
+        <div id="library-container">
+
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
+
 </html>
